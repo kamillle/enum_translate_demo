@@ -1,0 +1,10 @@
+ja:
+  activerecord:
+    models:
+      user: ユーザー
+    attributes:
+      role: 権限
+      user/role:
+        super_admin: 全権管理
+        read_only: 閲覧権限
+        nothing: 権限なし

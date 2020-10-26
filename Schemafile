@@ -1,0 +1,8 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+create_table(:users) do |t|
+  t.unsigned_integer :role, null: false, default: 2
+
+  t.timestamps
+end
